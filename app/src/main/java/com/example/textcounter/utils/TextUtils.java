@@ -1,0 +1,13 @@
+package com.example.textcounter.utils;
+
+import com.example.textcounter.R;
+
+public class TextUtils {
+    public static int getWordCount(String input) {
+        String[] textParts = input.split("\\s+");
+        return textParts.length;
+    }
+    public static int getCharCount(String input) {
+        return input.length();
+    }
+}

@@ -2,6 +2,9 @@
     <string name="app_name">TextCounter</string>
     <string name="input_text">Input text…</string>
     <string name="calculate">Calculate</string>
+    <string name="output_words_count">Your input contains %d words</string>
+    <string name="output_char_count">Your input contains %d characters</string>
+    <string name="input_not_filled">Input text is not filled</string>
     <string-array name="count_options">
         <item>Words</item>
         <item>Characters</item>

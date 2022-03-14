@@ -22,13 +22,13 @@
         android:layout_height="66dp"
         android:layout_marginTop="10dp"
         android:ems="10"
-        android:inputType="textPersonName"
+        android:hint="@string/input_text"
         android:importantForAutofill="no"
-        tools:ignore="LabelFor"
-        android:text="@string/input_text"
+        android:inputType="textPersonName"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="LabelFor" />
 
     <Button
         android:id="@+id/btnCalculate"
@@ -36,12 +36,13 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="19dp"
         android:text="@string/calculate"
+        android:onClick="onBtnCalculateClick"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/OptionSelection" />
+        app:layout_constraintTop_toBottomOf="@+id/calculateOption" />
 
     <Spinner
-        android:id="@+id/OptionSelection"
+        android:id="@+id/calculateOption"
         android:layout_width="373dp"
         android:layout_height="54dp"
         android:layout_marginTop="17dp"
