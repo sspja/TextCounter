@@ -1,3 +1,9 @@
 <resources>
     <string name="app_name">TextCounter</string>
+    <string name="input_text">Input text…</string>
+    <string name="calculate">Calculate</string>
+    <string-array name="count_options">
+        <item>Words</item>
+        <item>Characters</item>
+    </string-array>
 </resources>
